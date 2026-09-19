@@ -1,0 +1,40 @@
+# Python environments / caches
+myenv/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node dependencies
+node_modules/
+
+# Circom / Groth16 generated heavy artifacts
+*.ptau
+*.zkey
+*.wtns
+*.r1cs
+*.sym
+circuit_js/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+*~
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.log
+
+# Additional local virtual environment
+path/to/venv/
+
+# Unverified unrelated/local JSON artifact
+name Confirm Medical .json
